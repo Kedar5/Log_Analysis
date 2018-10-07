@@ -4,10 +4,10 @@ The main objective of the Logs Analysis Project is to create a reporting tool th
 
 
 ## Installation Steps :
-1.Install [Virtual Box](https://www.virtualbox.org/).<br>
-2.Install [Vagrant](https://www.vagrantup.com/).<br>
-3.Download or Clone the [repository](https://github.com/udacity/fullstack-nanodegree-vm).<br>
-4.You now have newsdata.sql with which u can work.<br>
+1. Install [Virtual Box](https://www.virtualbox.org/).<br>
+2. Install [Vagrant](https://www.vagrantup.com/).<br>
+3. Download or Clone the [repository](https://github.com/udacity/fullstack-nanodegree-vm).<br>
+4. The downloaded file contains newsdata.sql with which you can work.<br>
 
 ## Steps to run :<br>
 1. Change to the directory containing vagrant file.<br>
