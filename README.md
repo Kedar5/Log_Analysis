@@ -3,11 +3,11 @@
 The main objective of the Logs Analysis Project is to create a reporting tool that fetches the data from the database and prints out the report based on the data. This reporting tool is a Python program using the psycopg2 module to connect to the database.
 
 
-## Installation
-1.Install [Virtual Box](https://www.virtualbox.org/)
-2.Install [Vagrant](https://www.vagrantup.com/)
-3.Download or Clone the [repository](https://github.com/udacity/fullstack-nanodegree-vm)
-4.You now have newsdata.sql with which u can work.
+## Installation Steps:
+1.Install [Virtual Box](https://www.virtualbox.org/)<br>
+2.Install [Vagrant](https://www.vagrantup.com/)<br>
+3.Download or Clone the [repository](https://github.com/udacity/fullstack-nanodegree-vm)<br>
+4.You now have newsdata.sql with which u can work.<br>
 
 ## Steps to run:<br>
 1. Change to the directory containing vagrant file<br>
