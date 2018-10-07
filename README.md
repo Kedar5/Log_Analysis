@@ -65,7 +65,7 @@ CREATE VIEW authors_view AS
 SELECT authors.name,authors.id,articles.slug
 FROM authors LEFT JOIN articles ON
 articles.author = authors.id;
-```     
+```
 #### authors_article_view :
 ```
 CREATE VIEW authors_article_view AS
