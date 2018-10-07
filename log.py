@@ -45,7 +45,7 @@ def largest_errors():
     my_db.close()
     cur3.close()
 
-    
+
 # Prints results for each query
 if __name__ == '__main__':
     print "------------------------------------------------"
