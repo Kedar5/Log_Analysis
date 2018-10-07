@@ -79,7 +79,7 @@ GROUP BY date(time);
 #### cond_error
 ```
 CREATE VIEW cond_error AS
-SELECT to_char(date_time_error.date,'DD-MM-YYYY') AS date,
+SELECT to_char(date_time_error.date,'Month DD, YYYY') AS date,
 to_char(((date_time_error.count::decimal/date_time.count::decimal)*100),'9.99') || '%' as percentage
 FROM date_time_error, date_time
 WHERE ((date_time_error.count::decimal/date_time.count::decimal)*100) > 1 and date_time.date = date_time_error.date;
