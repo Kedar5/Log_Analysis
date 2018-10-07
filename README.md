@@ -110,7 +110,7 @@ to_char(((date_time_error.count::decimal/date_time.count::decimal)*100),'9.99') 
 FROM date_time_error, date_time
 WHERE ((date_time_error.count::decimal/date_time.count::decimal)*100) > 1 and date_time.date = date_time_error.date;
 ```
-* to char is used to convert the values into the required format of characters. date and percentage are selected and stored based on the condition that the error must be more than 1%.  
+* to char is used to convert the values into the required format of characters. date and percentage are selected and stored based on the condition that the error must be more than 1%.
 ## Output Screenshot :
 
 <img src="https://github.com/Kedar5/Logs_analysis/blob/master/Output_Screenshot.png" alt="Output image">
