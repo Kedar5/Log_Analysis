@@ -21,6 +21,24 @@ The main objective of the Logs Analysis Project is to create a reporting tool th
     -use **\q** to quit the database.<br>
 6. Use command **python log.py** to run the program.<br>
 
+#### The tables in news database:
+* The **authors** table includes information about the authors of articles.
+* The **articles** table includes the articles themselves.
+* The **log** table includes one entry for each time a user has accessed the site.
+
+#### The project drives following conclusions:
+* Most popular three articles of all time.
+* Most popular article authors of all time.
+* Days on which more than 1% of requests lead to errors.
+
+### Functions in log.py:
+* **connect():** Connects to the PostgreSQL database and returns a database connection.
+* **cursor():** Allows Python code to execute PostgreSQL command in a database session.
+* **fetchall():** Fetch all rows from the database table.
+* **popular_article():** Prints most popular three articles of all time.
+* **popular_authors():** Prints most popular article authors of all time.
+* **largest_errors:** Print days on which more than 1% of requests lead to errors.
+
 ## Views :
 #### article_view :
 ```
