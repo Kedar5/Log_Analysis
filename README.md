@@ -11,15 +11,15 @@ The main objective of the Logs Analysis Project is to create a reporting tool th
 
 ## Steps to run:<br>
 1. Change to the directory containing vagrant file<br>
-2. run **vagrant up** to start<br>
+2. Run **vagrant up** to start<br>
 3. **vagrant ssh** to login into vm<br>
-4. change directory to **cd /vagrant**<br>
-5. use command **psql -d news -f newsdata.sql** to load database<br>
+4. Change directory to **cd /vagrant**<br>
+5. Use command **psql -d news -f newsdata.sql** to load database<br>
     -use **\c** to connect to database="news"<br>
     -use **\dt** to see the tables in database<br>
     -use **\dv** to see the views in database<br>
     -use **\q** to quit the database<br>
-6. use command **python log.py** to run the programm<br>
+6. Use command **python log.py** to run the programm<br>
 
 ## Views
 #### article_view
