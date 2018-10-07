@@ -35,14 +35,6 @@ SELECT article_view.title,count(log.id) AS num
 FROM article_view LEFT JOIN log ON log.path = ('/article/' || article_view.slug)
 GROUP BY article_view.title;
 ```
-#### count_view
-```
-CREATE VIEW count_view AS
-SELECT path,count(path) AS tot 
-FROM log 
-WHERE status='200 OK' and path!='/' 
-GROUP BY path;
-```
 #### article_popularity
 ```
 CREATE VIEW article_popularity AS 
@@ -55,7 +47,7 @@ CREATE VIEW authors_view AS
 SELECT authors.name,authors.id,articles.slug
 FROM authors LEFT JOIN articles ON
 articles.author = authors.id;
-```
+```     
 #### authors_article_view
 ```
 CREATE VIEW authors_article_view AS 
@@ -80,7 +72,7 @@ GROUP BY date(time);
 #### date_time
 ```
 CREATE VIEW date_time AS 
-SELECT date(time),count(*)   
+SELECT date(time),count(*)
 FROM log
 GROUP BY date(time);
 ```
