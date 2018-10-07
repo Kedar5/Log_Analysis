@@ -37,7 +37,7 @@ The main objective of the Logs Analysis Project is to create a reporting tool th
 * **fetchall():** Fetch all rows from the database table.
 * **popular_article():** Prints most popular three articles of all time.
 * **popular_authors():** Prints most popular article authors of all time.
-* **largest_errors:** Print days on which more than 1% of requests lead to errors.
+* **largest_errors():** Print days on which more than 1% of requests lead to errors.
 
 ## Views :
 #### article_view :
