@@ -86,7 +86,7 @@ WHERE ((date_time_error.count::decimal/date_time.count::decimal)*100) > 1 and da
 ```
 ## Screenshot
 
-<img src="" alt="Website image">
+<img src="https://github.com/Kedar5/Logs_analysis/blob/master/Output_Screenshot.png" alt="Output image">
 
 ## Acknowledgments
 
