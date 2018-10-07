@@ -1,6 +1,7 @@
 #!/usr/bin/env python2.7
-#import psycopg2 module into the python code
+# import psycopg2 module into the python code
 import psycopg2
+
 
 # Returns most popular three articles of all time
 def popular_articles():
@@ -16,6 +17,7 @@ def popular_articles():
     my_db.close()
     cur1.close()
 
+
 # Returns most popular three authors of all time
 def popular_authors():
     my_db = psycopg2.connect(database="news")
@@ -28,7 +30,8 @@ def popular_authors():
         print "%s - %d views" % (data[0], data[1])
     my_db.close()
     cur2.close()
-   
+
+
 # Returns date(s) with more than 1% of GET request errors
 def largest_errors():
     my_db = psycopg2.connect(database="news")
